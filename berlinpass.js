@@ -15,7 +15,7 @@ function pushOnMap(coordinates, anbieter, kurzbeschreibung_des_angebotes, websit
 		website_str = "<br>Website: <a href='" + website_http + "' target='_blank'>" + website + "</a>"
 	} else website_str = "";
 	if(zeitliche_begrenzung != "") zeitliche_begrenzung_str = "<br>Hinweis: " + zeitliche_begrenzung; else zeitliche_begrenzung_str = "";
-	L.marker(coordinates).addTo(map).bindPopup("<b>" + anbieter + "</b><br> Info: " + kurzbeschreibung_des_angebotes + preis_str + website_str + zeitliche_begrenzung_str).openPopup();
+	L.marker(coordinates).addTo(map).bindPopup("<b>" + anbieter + "</b><br> Info: " + kurzbeschreibung_des_angebotes + preis_str + website_str + zeitliche_begrenzung_str).openPopup().on('click', function(e){map.panTo(this.getLatLng());});
 }
 
 function getMapData(){
