@@ -67,7 +67,11 @@ function pushOnMap(input){
 function getMapData(){
 	var result = "0,0";
 	loadJSON('test_data.json',
-	         function(data) { pushOnMap(data.index[0].coordinates); },
+	         function(data) { 
+	         	for(var i = 0; i < data.index.length; i++){
+	         		pushOnMap(data.index[i].coordinates); 
+	         	}
+	         },
 	         function(xhr) { result = xhr }
 	);
 }
