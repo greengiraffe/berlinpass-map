@@ -15,7 +15,7 @@ function pushOnMap(coordinates, anbieter, kurzbeschreibung_des_angebotes, websit
 
 function getMapData(){
 	var result = "0,0";
-	loadJSON('berlinpass_db.json',
+	loadJSON('test_data.json',
 	         function(data) { 
 	         	for(var i = 0; i < data.index.length; i++){
 	         		pushOnMap(data.index[i].coordinates, data.index[i].anbieter, data.index[i].kurzbeschreibung_des_angebotes, data.index[i].website, data.index[i].preis); 
