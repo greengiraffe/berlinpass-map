@@ -13,14 +13,14 @@ var map = L.map('map').setView([52.520, 13.404], 13);
 getMapData();
 
 function pushOnMap(coordinates, anbieter){
-	L.marker(coordinates).addTo(map).bindPopup(anbieter).openPopup();
+	L.marker(coordinates).addTo(map).bindPopup(anbieter + '\n test').openPopup();
 }
 function getMapData(){
 	var result = "0,0";
 	loadJSON('test_data.json',
 	         function(data) { 
 	         	for(var i = 0; i < data.index.length; i++){
-	         		pushOnMap(data.index[i].coordinates, data.index[i].anbieter); 
+	         		pushOnMap(data.index[i].coordinates, data.index[i].anbieter, data.index[i].kurzbeschreibung_des_angebotes, data.index[i].website, data.index[i].preis); 
 	         	}
 	         },
 	         function(xhr) { result = xhr }
