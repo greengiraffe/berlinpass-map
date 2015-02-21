@@ -13,7 +13,7 @@ var map = L.map('map').setView([52.520, 13.404], 13);
 getMapData();
 
 function pushOnMap(coordinates, anbieter){
-	L.marker(coordinates).addTo(map).bindPopup(anbieter + '\n' + preis).openPopup();
+	L.marker(coordinates).addTo(map).bindPopup(anbieter + '\n !').openPopup();
 }
 function getMapData(){
 	var result = "0,0";
