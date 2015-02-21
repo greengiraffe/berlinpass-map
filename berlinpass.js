@@ -8,6 +8,14 @@ var map = L.map('map').setView([52.520, 13.404], 13);
 			id: 'examples.map-i875mjb7'
 		}).addTo(map);
 
+// neuer Code von Andreas
+var pathOfFileToRead = "test_data.json";
+var geojsonFeature = FileHelper.readStringFromFileAtPath ( pathOfFileToRead );
+
+L.geoJson(geojsonFeature).addTo(map);
+
+// Ende neuer Code von Andreas
+
 
 		/*L.marker([51.5, -0.09]).addTo(map)
 			.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
