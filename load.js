@@ -13,6 +13,6 @@ if (navigator.geolocation) {
 		    iconAnchor: [22, 94],
 		    popupAnchor: [-9, -87]
 		});
-		L.marker([data.coords.latitude,data.coords.longitude], {icon: myIcon}).addTo(map).bindPopup("You are here!").openPopup();
+		L.marker([data.coords.latitude,data.coords.longitude], {icon: myIcon}).addTo(map).bindPopup("[52.5155098,13.3847539]").openPopup();
 	});
 }
