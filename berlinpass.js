@@ -8,14 +8,9 @@ L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
 
 getMapData();
 
-function pushOnMap(coordinates, anbieter, kurzbeschreibung_des_angebotes, website, preis, zeitliche_begrenzung){
-	if(preis != "") preis_str = "<br>Preis: " + preis; else preis_str = "";
-	if(website != ""){
-		website_http = url_check(website);
-		website_str = "<br> Website: <a href='" + website_http + "' target='_blank'>" + website + "</a>"
-	} else website_str = "";
-	if(zeitliche_begrenzung != "") zeitliche_begrenzung_str = "<br>" + zeitliche_begrenzung; else zeitliche_begrenzung_str = "";
-	L.marker(coordinates).addTo(map).bindPopup("<b>" + anbieter + "</b><br> Info: " + kurzbeschreibung_des_angebotes + preis_str + website_str + zeitliche_begrenzung_str).openPopup();
+function pushOnMap(coordinates, anbieter, kurzbeschreibung_des_angebotes, website, preis){
+	website_http = url_check(website);
+	L.marker(coordinates).addTo(map).bindPopup("<b>" + anbieter + "</b><br> Info: " + kurzbeschreibung_des_angebotes + "<br> Preis: " + preis + "<br> Website: <a href='" + website_http + "' target='_blank'>" + website + "</a>").openPopup();
 }
 
 function getMapData(){
@@ -24,7 +19,7 @@ function getMapData(){
 	         function(data) { 
 	         	for(var i = 0; i < data.index.length; i++){
 	         		if(data.index[i].coordinates){
-	         			pushOnMap(data.index[i].coordinates, data.index[i].anbieter, data.index[i].kurzbeschreibung_des_angebotes, data.index[i].website, data.index[i].preis, data.index[i].zeitliche_begrenzung); 
+	         			pushOnMap(data.index[i].coordinates, data.index[i].anbieter, data.index[i].kurzbeschreibung_des_angebotes, data.index[i].website, data.index[i].preis); 
 	         		}
 	         	}
 	         },
@@ -53,7 +48,7 @@ function loadJSON(path, success, error)
 
 function url_check(url_to_check)
 {
-	if (!url_to_check.startsWith("http://"))
+	if (!url_to_check.indexOf("http://") == 0)
 	{
 		website_http_added = "http://" + url_to_check;
 		return website_http_added;
