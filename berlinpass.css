@@ -1,3 +1,11 @@
+body{
+	margin:0;
+}
+
 #map{
+<<<<<<< HEAD
 	height:700px;
+=======
+	width:100%;
+>>>>>>> gh-pages
 }
