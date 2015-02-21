@@ -58,3 +58,30 @@ L.geoJson(geojsonFeature).addTo(map);
 		}
 
 		map.on('click', onMapClick);*/
+
+getMapData();
+function getMapData(){
+	loadJSON('test_data.json',
+	         function(data) { alert(data.index[0].anbieter); },
+	         function(xhr) { alert(xhr); }
+	);
+}
+
+function loadJSON(path, success, error)
+{
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function()
+    {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                if (success)
+                    success(JSON.parse(xhr.responseText));
+            } else {
+                if (error)
+                    error(xhr);
+            }
+        }
+    };
+    xhr.open("GET", path, true);
+    xhr.send();
+}
