@@ -20,7 +20,7 @@ var geojsonFeature = {
         "popupContent": "Hier ist es!"
     },
     "geometry": {
-        "type": "Point",
+        "type": "marker",
         "coordinates": [52.533469, 13.701743]
     }
 };
