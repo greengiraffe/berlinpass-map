@@ -21,7 +21,7 @@ var geojsonFeature = {
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [52.533469, 14.401743]
+        "coordinates": [52.533469, 13.701743]
     }
 };
 
