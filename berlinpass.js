@@ -52,7 +52,7 @@ function url_check(url_to_check)
 {
 	if (!url_to_check.startsWith("http://"))
 	{
-		website_http_added = "http://" + website;
+		website_http_added = "http://" + url_to_check;
 		return website_http_added;
 	} else return url_to_check;
 }
