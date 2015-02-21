@@ -17,7 +17,7 @@ if (navigator.geolocation) {
 
 getMapData();
 
-function pushOnMap(coordinates, anbieter, kurzbeschreibung_des_angebotes, website, preis){
+function pushOnMap(coordinates, anbieter, kurzbeschreibung_des_angebotes, website, preis, zeitliche_begrenzung){
 	website_http = url_check(website);
 	L.marker(coordinates).addTo(map).bindPopup("<b>" + anbieter + "</b><br> Info: " + kurzbeschreibung_des_angebotes + "<br> Preis: " + preis + "<br> Website: <a href='" + website_http + "' target='_blank'>" + website + "</a>").openPopup();
 }
@@ -27,7 +27,7 @@ function getMapData(){
 	loadJSON('test_data.json',
 	         function(data) { 
 	         	for(var i = 0; i < data.index.length; i++){
-	         		pushOnMap(data.index[i].coordinates, data.index[i].anbieter, data.index[i].kurzbeschreibung_des_angebotes, data.index[i].website, data.index[i].preis); 
+	         		pushOnMap(data.index[i].coordinates, data.index[i].anbieter, data.index[i].kurzbeschreibung_des_angebotes, data.index[i].website, data.index[i].preis, data.index[i].zeitliche_begrenzung); 
 	         	}
 	         },
 	         function(xhr) { result = xhr }
