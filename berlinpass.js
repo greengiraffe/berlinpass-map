@@ -13,8 +13,9 @@ var map = L.map('map').setView([52.520, 13.404], 13);
 getMapData();
 
 function pushOnMap(coordinates, anbieter, kurzbeschreibung_des_angebotes, website, preis){
-	L.marker(coordinates).addTo(map).bindPopup("<b>" + anbieter + "</b><br> Info: " + kurzbeschreibung_des_angebotes + "<br> Preis: " + preis + "<br> Website: <a href='http://" + website + "' target='_blank'>" + website + "</a>").openPopup();
+	L.marker(coordinates).addTo(map).bindPopup("<b>" + anbieter + "</b><br> Info: " + kurzbeschreibung_des_angebotes + "<br> Preis: " + preis + "<br> Website: <a href='http://" + url_check(website) + "' target='_blank'>" + website + "</a>").openPopup();
 }
+
 function getMapData(){
 	var result = "0,0";
 	loadJSON('test_data.json',
@@ -44,4 +45,13 @@ function loadJSON(path, success, error)
     };
     xhr.open("GET", path, true);
     xhr.send();
+}
+
+function url_check(url_to_check)
+{
+	if (!url_to_check.StartsWith("http://"))
+	{
+		website_http_added = "http://" + website;
+		return website_http_added;
+	} else return url_to_check;
 }
