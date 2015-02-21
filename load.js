@@ -13,6 +13,10 @@ if (navigator.geolocation) {
 		    iconAnchor: [22, 94],
 		    popupAnchor: [-9, -87]
 		});
-		L.marker([data.coords.latitude,data.coords.longitude], {icon: myIcon}).addTo(map).bindPopup("[52.5155098,13.3847539]").openPopup();
+		L.circle([data.coords.latitude,data.coords.longitude], 125, {
+    		color: 'red',
+    		fillColor: '#f03',
+    		fillOpacity: 0.5
+		}).addTo(map).bindPopup("Ihr Standort").openPopup();
 	});
 }
