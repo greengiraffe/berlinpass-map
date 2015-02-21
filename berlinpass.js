@@ -61,15 +61,15 @@ var geojsonFeature = {
 
 getMapData();
 
-function pushOnMap(input){
-	L.marker(input).addTo(map)
+function pushOnMap(coordinates, anbieter){
+	L.marker(coordinates).addTo(map).bindPopup(anbieter).openPopup();
 }
 function getMapData(){
 	var result = "0,0";
 	loadJSON('test_data.json',
 	         function(data) { 
 	         	for(var i = 0; i < data.index.length; i++){
-	         		pushOnMap(data.index[i].coordinates); 
+	         		pushOnMap(data.index[i].coordinates, data.index[i].anbieter); 
 	         	}
 	         },
 	         function(xhr) { result = xhr }
