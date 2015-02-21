@@ -19,7 +19,7 @@ getMapData();
 
 function pushOnMap(coordinates, anbieter, kurzbeschreibung_des_angebotes, website, preis){
 	website_http = url_check(website);
-	L.marker(coordinates).addTo(map).bindPopup("<b>" + anbieter + "</b><br> Info: " + kurzbeschreibung_des_angebotes + "<br> Preis: " + preis + "<br> Website: <a href='http://" + website_http + "' target='_blank'>" + website + "</a>").openPopup();
+	L.marker(coordinates).addTo(map).bindPopup("<b>" + anbieter + "</b><br> Info: " + kurzbeschreibung_des_angebotes + "<br> Preis: " + preis + "<br> Website: <a href='" + website_http + "' target='_blank'>" + website + "</a>").openPopup();
 }
 
 function getMapData(){
