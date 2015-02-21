@@ -10,7 +10,20 @@ var map = L.map('map').setView([52.520, 13.404], 13);
 
 // neuer Code von Andreas
 var pathOfFileToRead = "test_data.json";
-var geojsonFeature = FileHelper.readStringFromFileAtPath ( pathOfFileToRead );
+
+//var geojsonFeature = FileHelper.readStringFromFileAtPath ( pathOfFileToRead );
+var geojsonFeature = {
+    "type": "Feature",
+    "properties": {
+        "name": "Acud Kino",
+        "amenity": "...",
+        "popupContent": "Hier ist es!"
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [52.533469, 13.401743]
+    }
+};
 
 L.geoJson(geojsonFeature).addTo(map);
 
