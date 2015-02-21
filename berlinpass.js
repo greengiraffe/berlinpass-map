@@ -12,8 +12,8 @@ var map = L.map('map').setView([52.520, 13.404], 13);
 
 getMapData();
 
-function pushOnMap(coordinates, anbieter){
-	L.marker(coordinates).addTo(map).bindPopup("<b>" + anbieter + "<br> Preis: " + preis).openPopup();
+function pushOnMap(coordinates, anbieter, kurzbeschreibung_des_angebotes, website, preis){
+	L.marker(coordinates).addTo(map).bindPopup("<b>" + anbieter + "<br> Info: " + kurzbeschreibung_des_angebotes + "<br> Preis: " + preis + "<br> Website: " + website).openPopup();
 }
 function getMapData(){
 	var result = "0,0";
