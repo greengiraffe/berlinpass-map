@@ -11,7 +11,6 @@ _NOT_FOUND = "NOT FOUND"
 _SUFFIX = " Berlin Germany"
 _TIMEOUT = 10
 _LOCATIONS = ["Acud Kino e.V.",
-              "Bibliotheken in Pankow",
               "Maxim Gorki Theater 10117",
               "Kirche zur frohen Botschaft 10318",
               "Modellpark Berlin-Brandenburg",
