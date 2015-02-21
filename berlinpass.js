@@ -60,10 +60,15 @@ var geojsonFeature = {
 		map.on('click', onMapClick);*/
 
 getMapData();
+
+function pushOnMap(input){
+	L.marker(input).addTo(map)
+}
 function getMapData(){
+	var result = "0,0";
 	loadJSON('test_data.json',
-	         function(data) { alert(data.index[0].anbieter); },
-	         function(xhr) { alert(xhr); }
+	         function(data) { pushOnMap(data.index[0].coordinates); },
+	         function(xhr) { result = xhr }
 	);
 }
 
