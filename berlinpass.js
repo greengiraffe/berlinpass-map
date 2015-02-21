@@ -49,7 +49,7 @@ function loadJSON(path, success, error)
 
 function url_check(url_to_check)
 {
-	if (!url_to_check.StartsWith("http://"))
+	if (!url_to_check.startsWith("http://"))
 	{
 		website_http_added = "http://" + website;
 		return website_http_added;
