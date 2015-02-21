@@ -27,6 +27,8 @@ var geojsonFeature = {
 
 L.geoJson(geojsonFeature).addTo(map);
 
+L.marker([52.533469, 13.401743]).addTo(map)
+
 // Ende neuer Code von Andreas
 
 
