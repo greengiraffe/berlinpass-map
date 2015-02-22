@@ -19,7 +19,8 @@ _LOCATIONS = ["Acud Kino e.V.",
 
 def test_geolocator(geolocator, _LOCATIONS):
   """Testet Geolocator Abfragen anhand der gegebenen _LOCATIONS
-     Printet dazu die zur Eingabe, d.h. der Location gefundene Adresse
+     Printet dazu die zur Eingabe, d.h. die zu der Location gefundene
+     Adresse
   """
 
   for loc in _LOCATIONS:
