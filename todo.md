@@ -4,7 +4,9 @@
 - Koordinaten die nicht über die Google bzw. Open Street Map API abrufbar sind aufliste
     - Fehlende Koordinaten von Hand ergänzen.
 - Falsche Koordinaten finden und in [BadData.md](https://github.com/greengiraffe/berlinpass-map/blob/master/BadData.md) eintragen.
-    - Falsche Koordinaten aus [BadData.md](https://github.com/greengiraffe/berlinpass-map/blob/master/BadData.md) korrigieren.
+    - Falsche Koordinaten aus [BadData.md](https://github.com/greengiraffe/berlinpass-map/            blob/master/BadData.md) korrigieren.
+- Automatisierte Aktualisierung der Daten.
+- Erweiterung der Einträge durch beispielsweise die Bibliotheken.
 
 ## Frontend
 - Filterfunktion, um z.B. nur nach Sport- oder Bildungsangeboten zu suchen.
