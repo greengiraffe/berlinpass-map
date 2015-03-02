@@ -1,4 +1,4 @@
-# Fehlerhafte/Unvollständige Daten
+﻿# Fehlerhafte/Unvollständige Daten
 
 ## Falsche Adressen
 
@@ -16,6 +16,15 @@ Prinzregentenstraße 72
 - Museum Pankow
 Prenzlauer Allee 227/228
 10405 Berlin
+- _(Kino)_ International
+Karl-Marx-Allee 33
+10178 Berlin
+- The Story of Berlin
+Kurfürstendamm 207-208
+10719 Berlin
+- Babylon Kreuzberg _(Kino)_
+Dresdener Straße 126
+10999 Berlin
 
 ## Typos
 
@@ -24,6 +33,7 @@ An der Kasse, **telefonsiche** Reservierung ist möglich
 - Museum für **Aisatische** Kunst
 Lansstraße 8
 14195 Berlin
+- AlliiertenMuseum
 
 ## Veraltete Websites
 - http://www.heimatmuseum-treptow.de/sites/museumtreptow.htm
