@@ -1,5 +1,4 @@
-document.getElementById("map").style.height = window.innerHeight+"px";
-
+var markers = [];
 //---Act-Position---
 var map = L.map('map').setView([52.520, 13.404], 11);
 if (navigator.geolocation) {
@@ -20,3 +19,11 @@ if (navigator.geolocation) {
 		}).addTo(map).bindPopup("Ihr Standort").openPopup();
 	});
 }
+
+$(document).ready(function(){
+	$("#map-buttons .filter").change(function(){
+		for(var i = 0; i < markers.length; i++){
+			map.removeLayer(markers[i]);
+		}
+	});
+});
