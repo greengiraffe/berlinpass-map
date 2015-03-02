@@ -12,7 +12,7 @@ Konzerte
 Kultur
 Kunst
 Literatur & Lesungen
-Mobilit�t
+Mobilität
 Museum
 Musik
 Musikschule
@@ -24,4 +24,5 @@ Sport & Spiel
 Theater
 VHS
 
-	
+Vorschläge für weitere Kategorien:
+Essen
