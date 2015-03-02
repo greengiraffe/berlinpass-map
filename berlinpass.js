@@ -15,7 +15,7 @@ function pushOnMap(coordinates, anbieter, kurzbeschreibung_des_angebotes, websit
 		show = true;
 	}else{
 		$("#map-buttons .filter:checked").each(function(){
-			if(schlagworte.split(",").indexOf($(this).attr("id"))){
+			if(schlagworte.split(",").indexOf($(this).attr("id")) > -1){
 				show = true;
 				return;
 			}

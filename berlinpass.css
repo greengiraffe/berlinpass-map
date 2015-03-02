@@ -22,3 +22,11 @@ body{
 	height:0;
 	overflow:hidden;
 }
+
+#map-buttons label{
+	cursor:pointer;
+}
+
+#map-buttons label.checked{
+	color:#348ACC;
+}
