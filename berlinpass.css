@@ -20,6 +20,7 @@ body{
 
 #map-buttons-checks{
 	height:0;
+	width:0;
 	overflow:hidden;
 }
 
