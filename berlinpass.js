@@ -30,7 +30,7 @@ function pushOnMap(coordinates, anbieter, kurzbeschreibung_des_angebotes, websit
 		} else website_str = "";
 		if(zeitliche_begrenzung != "") zeitliche_begrenzung_str = "<br>Hinweis: " + zeitliche_begrenzung; else zeitliche_begrenzung_str = "";
 		var m = L.marker(coordinates).addTo(map);
-		m.bindPopup("<b>" + anbieter + "</b><br> Info: " + kurzbeschreibung_des_angebotes + preis_str + website_str + zeitliche_begrenzung_str).openPopup().on('click', function(e){map.panTo(this.getLatLng());});
+		m.bindPopup("<b>" + anbieter + "</b><br> Info: " + kurzbeschreibung_des_angebotes + preis_str + website_str + zeitliche_begrenzung_str).on('click', function(e){map.panTo(this.getLatLng());});
 		markers.push(m);
 	}
 }
