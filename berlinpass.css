@@ -28,10 +28,9 @@ body{
 	box-sizing:border-box;
 }
 
-#map-buttons-checks{
-	height:0;
-	width:0;
-	overflow:hidden;
+/* hide the checkbox */
+#map-buttons-checks > input[type=checkbox] {
+	display: none;
 }
 
 #map-buttons label{
