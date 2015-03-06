@@ -4,92 +4,143 @@
 	<title>Berlinpass-map</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset.css" />
 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 	<link rel="stylesheet" href="berlinpass.css" />
 	<script src="jquery-1.11.2.min.js" type="text/javascript"></script>
 </head>
 <body>
-	<div id="map"></div>
-	<div id="buttons-window-height">
-		<div id="map-buttons">
-			<div id="map-buttons-checks">
-				<input class="filter" type="checkbox" data-value="Ausstellung" id="ausstellung">
-				<label for="ausstellung">Ausstellung</label><br>
+	<div id="map" role="main"></div>
+	<aside id="filter-bar">
+		<ol id="filter-list">
 
-				<input class="filter" type="checkbox" data-value="Ausstellung | Galerie" id="ausstellunggalerie">
-				<label for="ausstellunggalerie">Ausstellung | Galerie</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Ausstellung" id="ausstellung">
+				<label for="ausstellung">Ausstellung</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Bibliothek" id="bibliothek">
-				<label for="bibliothek">Bibliothek</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Ausstellung | Galerie" id="ausstellunggalerie">
+				<label for="ausstellunggalerie">Ausstellung | Galerie</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Bildung" id="bildung">
-				<label for="bildung">Bildung</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Bibliothek" id="bibliothek">
+				<label for="bibliothek">Bibliothek</label>
+			</li>
+			
+			<li>
+				<input type="checkbox" class="filter" data-value="Bildung" id="bildung">
+				<label for="bildung">Bildung</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Familie" id="familie">
-				<label for="familie">Familie</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Familie" id="familie">
+				<label for="familie">Familie</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Freizeit" id="freizeit">
-				<label for="freizeit">Freizeit</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Freizeit" id="freizeit">
+				<label for="freizeit">Freizeit</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Galerie" id="galerie">
-				<label for="galerie">Galerie</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Galerie" id="galerie">
+				<label for="galerie">Galerie</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Gesundheit" id="gesundheit">
-				<label for="gesundheit">Gesundheit</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Gesundheit" id="gesundheit">
+				<label for="gesundheit">Gesundheit</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Kabarett" id="kabarett">
-				<label for="kabarett">Kabarett</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Kabarett" id="kabarett">
+				<label for="kabarett">Kabarett</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Kino" id="kino">
-				<label for="kino">Kino</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Kino" id="kino">
+				<label for="kino">Kino</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Konzerte" id="konzerte">
-				<label for="konzerte">Konzerte</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Konzerte" id="konzerte">
+				<label for="konzerte">Konzerte</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Kultur" id="kultur">
-				<label for="kultur">Kultur</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Kultur" id="kultur">
+				<label for="kultur">Kultur</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Kunst" id="kunst">
-				<label for="kunst">Kunst</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Kunst" id="kunst">
+				<label for="kunst">Kunst</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Literatur & Lesungen" id="literaturlesungen">
-				<label for="literaturlesungen">Literatur & Lesungen</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Literatur & Lesungen" id="literaturlesungen">
+				<label for="literaturlesungen">Literatur & Lesungen</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Mobilität" id="mobilität">
-				<label for="mobilität">Mobilität</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Mobilität" id="mobilität">
+				<label for="mobilität">Mobilität</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Museum" id="museum">
-				<label for="museum">Museum</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Museum" id="museum">
+				<label for="museum">Museum</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Musik" id="musik">
-				<label for="musik">Musik</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Musik" id="musik">
+				<label for="musik">Musik</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Musikschule" id="musikschule">
-				<label for="musikschule">Musikschule</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Musikschule" id="musikschule">
+				<label for="musikschule">Musikschule</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Natur & Erholung" id="naturerholung">
-				<label for="naturerholung">Natur & Erholung</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Natur & Erholung" id="naturerholung">
+				<label for="naturerholung">Natur & Erholung</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Oper" id="oper">
-				<label for="oper">Oper</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Oper" id="oper">
+				<label for="oper">Oper</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Senioren" id="senioren">
-				<label for="senioren">Senioren</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Senioren" id="senioren">
+				<label for="senioren">Senioren</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Sonstiges" id="sonstiges">
-				<label for="sonstiges">Sonstiges</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Sonstiges" id="sonstiges">
+				<label for="sonstiges">Sonstiges</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Sport & Spiel" id="sportspiel">
-				<label for="sportspiel">Sport & Spiel</label><br>
+			<li>
+				<input type="checkbox" class="filter" data-value="Sport & Spiel" id="sportspiel">
+				<label for="sportspiel">Sport & Spiel</label>
+			</li>
 
-				<input class="filter" type="checkbox" data-value="Theater" id="theater">
-				<label for="theater">Theater</label><br>
-				
-				<input class="filter" type="checkbox" data-value="VHS" id="vhs">
+			<li>
+				<input type="checkbox" class="filter" data-value="Theater" id="theater">
+				<label for="theater">Theater</label>
+			</li>
+
+			<li>
+				<input type="checkbox" class="filter" data-value="VHS" id="vhs">
 				<label for="vhs">VHS</label>
-			</div>				
-		</div>
-	</div>
+			</li>
+
+		</ol>
+	</aside>
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 	<script src="load.js"></script>
 	<script src="berlinpass.js"></script>

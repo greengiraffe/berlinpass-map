@@ -21,7 +21,7 @@ if (navigator.geolocation) {
 }
 
 $(document).ready(function(){
-	$("#map-buttons .filter").change(function(){
+	$("#filter-bar .filter").change(function(){
 		for(var i = 0; i < markers.length; i++){
 			map.removeLayer(markers[i]);
 		}

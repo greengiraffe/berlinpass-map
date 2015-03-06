@@ -10,11 +10,11 @@ getMapData();
 
 function pushOnMap(coordinates, anbieter, kurzbeschreibung_des_angebotes, website, preis, zeitliche_begrenzung, schlagworte){
 	var show = false;
-	var count = $("#map-buttons .filter:checked").length;
+	var count = $("#filter-bar .filter:checked").length;
 	if(count == 0){
 		show = true;
 	}else{
-		$("#map-buttons .filter:checked").each(function(){
+		$("#filter-bar .filter:checked").each(function(){
 			if(schlagworte.split(",").indexOf($(this).attr("data-value")) > -1){
 				show = true;
 				return;

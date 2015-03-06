@@ -8,7 +8,7 @@ body{
 	height:100vh;
 }
 
-#buttons-window-height{
+#filter-bar{
 	position:fixed;
 	left:10px;
 	top:73px;
@@ -17,7 +17,7 @@ body{
 	box-sizing:border-box;
 }
 
-#map-buttons{
+#filter-bar > ol{
 	background-color:white;
 	border-radius:4px;
 	box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.65);
@@ -29,14 +29,14 @@ body{
 }
 
 /* hide the checkbox */
-#map-buttons-checks > .filter {
+#filter-bar .filter{
 	display: none;
 }
 
-#map-buttons label{
+#filter-bar label{
 	cursor:pointer;
 }
 
-#map-buttons-checks > .filter:checked + label {
+#filter-bar .filter:checked + label {
   color:#348ACC;
 }
