@@ -33,7 +33,7 @@ An der Kasse, **telefonsiche** Reservierung ist möglich
 - Museum für **Aisatische** Kunst
 Lansstraße 8
 14195 Berlin
-- AlliiertenMuseum
+- ~~AlliiertenMuseum~~ (ist richtig, siehe: http://de.wikipedia.org/wiki/AlliiertenMuseum)
 
 ## Veraltete Websites
 - http://www.heimatmuseum-treptow.de/sites/museumtreptow.htm
