@@ -29,7 +29,7 @@ body{
 }
 
 /* hide the checkbox */
-#map-buttons-checks > input[type=checkbox] {
+#map-buttons-checks > .filter {
 	display: none;
 }
 
@@ -37,6 +37,6 @@ body{
 	cursor:pointer;
 }
 
-#map-buttons label.checked{
-	color:#348ACC;
+#map-buttons-checks > .filter:checked + label {
+  color:#348ACC;
 }

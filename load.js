@@ -21,9 +21,6 @@ if (navigator.geolocation) {
 }
 
 $(document).ready(function(){
-	$("#map-buttons label").click(function(){
-		$(this).toggleClass("checked");
-	});
 	$("#map-buttons .filter").change(function(){
 		for(var i = 0; i < markers.length; i++){
 			map.removeLayer(markers[i]);
