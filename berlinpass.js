@@ -23,7 +23,7 @@ function pushOnMap(coordinates, anbieter, kurzbeschreibung_des_angebotes, websit
 	}
 		
 	if(show){
-		if(address != "") address_str = "<br>Adresse: " + address + "<br>"; else address_str = "";
+		if(address != "") address_str = "<br>Adresse: " + address + "<br><br>"; else address_str = "";
 		if(preis != "") preis_str = "<br>Preis: " + preis; else preis_str = "";
 		if(website != ""){
 			website_http = url_check(website);
