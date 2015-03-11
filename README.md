@@ -8,6 +8,9 @@ https://pad.okfn.org/p/OpenDataDayBerlin2015
 http://daten.berlin.de/datensaetze/angebote
 (No guarantees for valid data)
 
+## Info
+www.berlin.de/sen/gessoz/_assets/publikationen/soziales/faltblatt_berlinpass.pdf
+
 ## Github Webpage
 http://greengiraffe.github.io/berlinpass-map/
 
