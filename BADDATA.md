@@ -54,5 +54,4 @@ Lansstraße 8
 ### Mehrere Standorte
 -	Lernwerk
 -	Bibliotheken in den verschiedenen Bezirken
--	BVG/S-Bahn
-
+-	BVG/S-Bahn (Erhältlich an allen Verkaufsstellen von S-Bahn, BVG und DB Regio und an den Fahrausweisautomaten auf S- und U- Bahnhöfen) --> Vorschlag: Nicht aufführen
