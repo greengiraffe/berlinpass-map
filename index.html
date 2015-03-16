@@ -11,6 +11,12 @@
 <body>
 	<div id="map"></div>
 	<div id="buttons-window-height">
+		<div id="search-button" class="little-button" data-for="search-field-container"></div>
+		<div id="search-field-container">
+			<input type="text" id="search-field"></input>
+			<button id="search-field-button">go</button>
+		</div>
+		<div id="category-button" class="little-button" data-for="map-buttons"></div>
 		<div id="map-buttons">
 			<div id="map-buttons-checks">
 				<input class="filter" type="checkbox" data-value="Ausstellung" id="ausstellung"></input>
@@ -39,35 +45,34 @@
 				<input class="filter" type="checkbox" data-value="Theater" id="theater"></input>
 				<input class="filter" type="checkbox" data-value="VHS" id="vhs"></input>
 			</div>
-				<label for="ausstellung">Ausstellung</label><br>
-				<label for="ausstellunggalerie">Ausstellung | Galerie</label><br>
-				<label for="bibliothek">Bibliothek</label><br>
-				<label for="bildung">Bildung</label><br>
-				<label for="familie">Familie</label><br>
-				<label for="freizeit">Freizeit</label><br>
-				<label for="galerie">Galerie</label><br>
-				<label for="gesundheit">Gesundheit</label><br>
-				<label for="kabarett">Kabarett</label><br>
-				<label for="kino">Kino</label><br>
-				<label for="konzerte">Konzerte</label><br>
-				<label for="kultur">Kultur</label><br>
-				<label for="kunst">Kunst</label><br>
-				<label for="literaturlesungen">Literatur & Lesungen</label><br>
-				<label for="mobilität">Mobilität</label><br>
-				<label for="museum">Museum</label><br>
-				<label for="musik">Musik</label><br>
-				<label for="musikschule">Musikschule</label><br>
-				<label for="naturerholung">Natur & Erholung</label><br>
-				<label for="oper">Oper</label><br>
-				<label for="senioren">Senioren</label><br>
-				<label for="sonstiges">Sonstiges</label><br>
-				<label for="sportspiel">Sport & Spiel</label><br>
-				<label for="theater">Theater</label><br>
-				<label for="vhs">VHS</label>
+			<label for="ausstellung">Ausstellung</label><br>
+			<label for="ausstellunggalerie">Ausstellung | Galerie</label><br>
+			<label for="bibliothek">Bibliothek</label><br>
+			<label for="bildung">Bildung</label><br>
+			<label for="familie">Familie</label><br>
+			<label for="freizeit">Freizeit</label><br>
+			<label for="galerie">Galerie</label><br>
+			<label for="gesundheit">Gesundheit</label><br>
+			<label for="kabarett">Kabarett</label><br>
+			<label for="kino">Kino</label><br>
+			<label for="konzerte">Konzerte</label><br>
+			<label for="kultur">Kultur</label><br>
+			<label for="kunst">Kunst</label><br>
+			<label for="literaturlesungen">Literatur & Lesungen</label><br>
+			<label for="mobilität">Mobilität</label><br>
+			<label for="museum">Museum</label><br>
+			<label for="musik">Musik</label><br>
+			<label for="musikschule">Musikschule</label><br>
+			<label for="naturerholung">Natur & Erholung</label><br>
+			<label for="oper">Oper</label><br>
+			<label for="senioren">Senioren</label><br>
+			<label for="sonstiges">Sonstiges</label><br>
+			<label for="sportspiel">Sport & Spiel</label><br>
+			<label for="theater">Theater</label><br>
+			<label for="vhs">VHS</label>
 		</div>
 	</div>
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-	<script src="load.js"></script>
-	<script src="berlinpass.js"></script>
+	<script src="_berlinpass.js"></script>
 </body>
 </html>
