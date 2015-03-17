@@ -118,8 +118,8 @@ function pushOnMap(coordinates, anbieter, kurzbeschreibung_des_angebotes, websit
 	}
 	//---filter by search topic---
 	if(search != "" && search){
-		var test = anbieter.search(search);
-		if(anbieter.search(search) > -1 || kurzbeschreibung_des_angebotes.search(search) > -1 || schlagworte.search(search) > -1 || address.search(search) > -1){
+		var lowerCaseSearch = search.toLowerCase();
+		if(anbieter.toLowerCase().search(lowerCaseSearch) > -1 || kurzbeschreibung_des_angebotes.toLowerCase().search(lowerCaseSearch) > -1 || schlagworte.toLowerCase().search(lowerCaseSearch) > -1 || address.toLowerCase().search(lowerCaseSearch) > -1){
 			show[1] = true;
 		}else{
 			show[1] = false;
