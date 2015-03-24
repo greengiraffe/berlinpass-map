@@ -88,7 +88,29 @@ s. Excel-Dokument
 - Eisbären Berlin O2 World?
 
 ### Mehrere Standorte
--	Lernwerk
+-	Lernwerk:
+	
+Lernwerk Berlin Steglitz
+Rothenburgstraße 32, 12165 Berlin
+
+Lernwerk Berlin Zehlendorf
+Glockenstraße 17, 14163 Berlin
+
+Lernwerk Berlin Lichterfelde
+Drakestraße 33, 12205 Berlin
+
+Lernwerk Berlin Wilmersdorf
+Fechnerstraße 11, 10717 Berlin
+
+Lernwerk Berlin Charlottenburg
+Nehringstraße 21/22, 14059 Berlin
+
+Lernwerk Berlin Reinickendorf
+Heinsestraße 39, 13467 Berlin
+
+Lernwerk Berlin Pankow
+Breite Straße 16, 13187 Berlin
+
 -	Bibliotheken in den verschiedenen Bezirken
 -	DRK-Secondhand-Laden
 -	Hebbel am Ufer
