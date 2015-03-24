@@ -69,7 +69,6 @@ Dresdener Straße 126
 - MädchenSportZentren bieten Bewegung, Kommunikation und Bildung für Mädchen und junge Frauen. In der Kooperation mit Schulen bieten sie Schnupperangebote im Rahmen von Wandertagen, Projekttagen oder regelmäßige offene sportorientierte Angebote für Schüleri _... (Ende fehlt)_
 - Heimspiele 1 und 2 Man**n**schaft in 1. und 2. Badmintonbundesliga
 - ermäßigter Eintritt, für Kinder und Jugendliche bis 18 Jahre Eintritt frei (ID 172)
-
 - An der Kasse, telefon**is**che Reservierung ist möglich unter 030-557 7 52 52/53 (ID 82)
 - siehe Hom**e**page (ID 484, 488, 500, 139, 28, 24, 42, 40, 22, 36, 26, 44, 30, 32, 34, 38, 498, 46, 48, 50, 52, 54, 56, 58, 60, 62, 66, 64, 68)
 - siehe: **http://www.berlinerbaeder.de/17.html** (ID 70)
