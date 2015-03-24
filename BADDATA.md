@@ -1,4 +1,4 @@
-﻿# Fehlerhafte/Unvollständige Daten
+# Fehlerhafte/Unvollständige Daten
 
 ## Falsche Adressen
 
@@ -25,7 +25,9 @@ Kurfürstendamm 207-208
 - Babylon Kreuzberg _(Kino)_
 Dresdener Straße 126
 10999 Berlin
-- HISTORIALE Berlin Museum / neuer Standort, neuer Name
+- Berlin Story Museum (ID 478)
+Schönebergerstr 23a
+10963 Berlin
 
 
 ## Typos Anbieter
@@ -73,7 +75,7 @@ Dresdener Straße 126
 - siehe Hom**e**page (ID 484, 488, 500, 139, 28, 24, 42, 40, 22, 36, 26, 44, 30, 32, 34, 38, 498, 46, 48, 50, 52, 54, 56, 58, 60, 62, 66, 64, 68)
 - siehe: **http://www.berlinerbaeder.de/17.html** (ID 70)
 
-## Doppelte Einträge in original Datenbank
+## Doppelte Anbieter in original Datenbank
 - Ballhaus Naunynstraße (ID 122 und 234)
 - Jugendmuseum (ID 434 und 556)
 - Mitte Museum (ID 552 und 626)
@@ -82,13 +84,9 @@ Dresdener Straße 126
 ## Veraltete Websites
 s. Excel-Dokument
 
-## Sonstiges
-
-- ALBA Berlin O2 World?
-- Eisbären Berlin O2 World?
 
 ### Mehrere Standorte
--	Lernwerk:
+- Lernwerk:
 	
 Lernwerk Berlin Steglitz
 Rothenburgstraße 32, 12165 Berlin
@@ -111,10 +109,17 @@ Heinsestraße 39, 13467 Berlin
 Lernwerk Berlin Pankow
 Breite Straße 16, 13187 Berlin
 
--	Bibliotheken in den verschiedenen Bezirken
--	DRK-Secondhand-Laden
--	Hebbel am Ufer
--	Hertha BSC (Fanshops)
--	BVG/S-Bahn (Erhältlich an allen Verkaufsstellen von S-Bahn, BVG und DB Regio und an den Fahrausweisautomaten auf S- und U- Bahnhöfen) --> Vorschlag: Nicht aufführen
--	Lange Nacht der Museen --> Veranstaltung
--	Science Slam Berlin im SO36 --> Veranstaltung
+- Bibliotheken in den verschiedenen Bezirken
+- Volkshochschulen
+- DRK-Secondhand-Laden
+- Hebbel am Ufer
+- Hertha BSC (Fanshops)
+
+### Veranstaltungen
+- Lange Nacht der Museen
+- Science Slam Berlin im SO36
+
+
+### Sonstiges
+- BVG/S-Bahn (Erhältlich an allen Verkaufsstellen von S-Bahn, BVG und DB Regio und an den Fahrausweisautomaten auf S- und U- Bahnhöfen) --> Vorschlag: Nicht aufführen
+- Alba Berlin und Eisbären Berlin spielen in der O2 World
