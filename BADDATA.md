@@ -109,8 +109,53 @@ Heinsestraße 39, 13467 Berlin
 Lernwerk Berlin Pankow
 Breite Straße 16, 13187 Berlin
 
+Lernwerk Potsdam
+Hans-Thoma-Straße 13, 14467 Potsdam
+
 - Bibliotheken in den verschiedenen Bezirken
 - Volkshochschulen
+Volkshochschule Charlottenburg-Wilmersdorf
+Pestalozzistraße 40/41, 10627 Berlin
+
+Volkshochschule Friedrichshain-Kreuzberg
+Frankfurter Allee 37, 10247 Berlin
+
+Volkshochschule Lichtenberg
+Paul-Junius-Straße 71, 10369 Berlin
+
+Volkshochschule Marzahn-Hellersdorf
+Mark Twain Straße 27, 12627 Berlin
+
+Volkshochschule Mitte
+Antonstraße 37, 13347 Berlin
+
+Volkshochschule Mitte
+Linienstraße 162, 10115 Berlin
+
+Volkshochschule Neukölln
+Boddinstraße 34, 12053 Berlin
+
+Volkshochschule Pankow
+Schulstraße 29, 13187 Berlin
+
+Volkshochschule Reinickendorf
+Buddestraße 21, 13507 Berlin
+
+Volkshochschule Spandau
+Moritzstraße 17, 13597 Berlin
+
+Volkshochschule Steglitz-Zehlendorf
+Markgrafenstraße 3, 14163 Berlin
+
+Volkshochschule Steglitz-Zehlendorf
+Goethestraße 9 - 11, 12207 Berlin
+
+Volkshochschule Tempelhof-Schöneberg
+Barbarossaplatz 5, 10781 Berlin
+
+Volkshochschule Treptow-Köpenick
+Baumschulenstraße 79 - 81, 12437 Berlin
+ 
 - DRK-Secondhand-Laden
 - Hebbel am Ufer
 - Hertha BSC (Fanshops)
