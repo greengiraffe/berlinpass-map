@@ -3,31 +3,23 @@
 ## Falsche Adressen
 
 - Rollberg _(Kino)_
-Rollbergstraße 70
-12049 Berlin
+Rollbergstraße 70, 12049 Berlin
 - Heimatmuseum Treptow
-Sterndamm 102
-12487 Berlin
+Sterndamm 102, 10487 Berlin
 - Museen Dahlem
 Lansstraße 8, 14195 Berlin
 - Musikschule Charlottenburg-Wilmersdorf
-Prinzregentenstraße 72
-10715 Berlin
+Prinzregentenstraße 72, 10715 Berlin
 - Museum Pankow
-Prenzlauer Allee 227/228
-10405 Berlin
+Prenzlauer Allee 227/228, 10405 Berlin
 - _(Kino)_ International
-Karl-Marx-Allee 33
-10178 Berlin
+Karl-Marx-Allee 33, 10178 Berlin
 - The Story of Berlin
-Kurfürstendamm 207-208
-10719 Berlin
+Kurfürstendamm 207-208, 10719 Berlin
 - Babylon Kreuzberg _(Kino)_
-Dresdener Straße 126
-10999 Berlin
+Dresdener Straße 126, 10999 Berlin
 - Berlin Story Museum (ID 478)
-Schönebergerstr 23a
-10963 Berlin
+Schönebergerstr 23a, 10963 Berlin
 
 
 ## Typos Anbieter
@@ -85,9 +77,8 @@ Schönebergerstr 23a
 s. Excel-Dokument
 
 
-### Mehrere Standorte
-- Lernwerk:
-	
+## Mehrere Standorte
+### Lernwerk:
 Lernwerk Berlin Steglitz
 Rothenburgstraße 32, 12165 Berlin
 
@@ -112,8 +103,9 @@ Breite Straße 16, 13187 Berlin
 Lernwerk Potsdam
 Hans-Thoma-Straße 13, 14467 Potsdam
 
-- Bibliotheken in den verschiedenen Bezirken
-- Volkshochschulen
+### Bibliotheken in den verschiedenen Bezirken
+
+### Volkshochschulen
 Volkshochschule Charlottenburg-Wilmersdorf
 Pestalozzistraße 40/41, 10627 Berlin
 
