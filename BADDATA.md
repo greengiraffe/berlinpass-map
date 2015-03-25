@@ -152,6 +152,8 @@ Baumschulenstraße 79 - 81, 12437 Berlin
 - Hebbel am Ufer
 - Berliner Bäderbetriebe
 - Hertha BSC (Fanshops)
+- Stern und Kreis Schifffahrt GmbH (15 % Ermäßigung auf alle Innenstadttouren der C 1 bis C 5 von Montag bis Freitag, außer an Feiertagen)
+
 
 ### Veranstaltungen
 - Lange Nacht der Museen
