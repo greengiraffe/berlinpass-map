@@ -1,33 +1,35 @@
-﻿# Kultur & Kunst
-##	Ausstellung
-##	Kino
-##	Kunstsammlung
-##	Lesung
-##	Museum
+#Neue Schlagworte
 
-# Bühne & Unterhaltung
-##	Kabarett
-##	Musik
-##	Tanz
-##	Theater
-##	Oper
+## Kultur & Kunst
+- Ausstellung
+- Kino
+- Kunstsammlung
+- Lesung
+- Museum
 
-# Bildung & Wissen
-##	Bibliothek
-##	Volkshochschule
-##	Musikschule
-##	Kurse
+## Bühne & Unterhaltung
+- Kabarett
+- Musik
+- Tanz
+- Theater
+- Oper
 
-# Natur & Erholung
+## Bildung & Wissen
+- Bibliothek
+- Volkshochschule
+- Musikschule
+- Kurse
 
-# Sport & Spiel
-##	Eislaufen
-##	Schwimmen
-##	Sportverein
-##	Zuschauen
+## Natur & Erholung
+
+## Sport & Spiel
+- Eislaufen
+- Schwimmen
+- Sportverein
+- Zuschauen
 	
-# Für Familien
+## Für Familien
 
-# Für Senioren
+## Für Senioren
 
-# Sonstiges
+## Sonstiges
