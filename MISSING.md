@@ -85,12 +85,12 @@
 - SportJugendZentrum Lychi	http://www.sjzlychi.de/
 - Squash-House Berlin 03 GmbH & Co. KG	http://www.squash-house.de
 - StattReisen - Berlin GmbH	http://www.stattreisenberlin.de
-- Stiftung Brö- han-Museum Landesmuseum für Jugendstil, Art Deco und Funktionalismus	http://www.broehan-museum.de
-- Stiftung Sta- dtmuseum Berlin (Ephraim Palais)	http://www.stadtmuseum.de/ephraim-palais
-- Stiftung Sta- dtmuseum Berlin (Knoblauchhaus)	http://www.stadtmuseum.de/knoblauchhaus
-- Stiftung Sta- dtmuseum Berlin (Märkisches Museum)	http://www.stadtmuseum.de/maerkisches-museum-0
-- Stiftung Sta- dtmuseum Berlin (Museumsdorf Düppel)	http://www.stadtmuseum.de/museumsdorf-dueppel
-- Stiftung Sta- dtmuseum Berlin (Nikolaikirche)	http://www.stadtmuseum.de/nikolaikirche
+- Stiftung Bröhan-Museum Landesmuseum für Jugendstil, Art Deco und Funktionalismus	http://www.broehan-museum.de
+- Stiftung Stadtmuseum Berlin (Ephraim Palais)	http://www.stadtmuseum.de/ephraim-palais
+- Stiftung Stadtmuseum Berlin (Knoblauchhaus)	http://www.stadtmuseum.de/knoblauchhaus
+- Stiftung Stadtmuseum Berlin (Märkisches Museum)	http://www.stadtmuseum.de/maerkisches-museum-0
+- Stiftung Stadtmuseum Berlin (Museumsdorf Düppel)	http://www.stadtmuseum.de/museumsdorf-dueppel
+- Stiftung Stadtmuseum Berlin (Nikolaikirche)	http://www.stadtmuseum.de/nikolaikirche
 - Studiobühne - in der "alten Feuerwache"	http://www.k- ulturamt-friedrichshain-kreuzberg.de/alte-feuerwache/studiobuehne.php?DOC_INST=- 6
 - Tanzschule ChaCha in Clärchens Ballhaus	http://www.ballhaus.de/de/tanzkurse.html
 - Tennis Borussia Berlin	http://www.tebe.de
