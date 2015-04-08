@@ -2,6 +2,7 @@
 var markers = [];
 var map = "";
 var search;
+var current_position;
 
 //---logic---
 initializeMap();
@@ -35,6 +36,11 @@ $(document).ready(function(){
 		search_markers();
 	});
 	//}
+	//---get current position{
+	$("#localize-button").click(function(){
+		getGeoLocation();
+	});
+	//}
 });
 
 //---functions---
@@ -54,18 +60,13 @@ function getGeoLocation () {
 		navigator.geolocation.getCurrentPosition(function(data){
 			map.panTo(new L.LatLng(data.coords.latitude, data.coords.longitude));
 			map.zoomIn(3);
-			var myIcon = L.icon({
-			    iconUrl: 'marker-icon.png',
-			    shadowUrl: 'http://cdn.leafletjs.com/leaflet-0.7.3/images/marker-shadow.png',
-			    iconSize: [25, 41],
-			    iconAnchor: [22, 94],
-			    popupAnchor: [-9, -87]
-			});
-			L.circle([data.coords.latitude,data.coords.longitude], 125, {
+			current_position ? map.removeLayer(current_position) : null;
+			current_position = L.circle([data.coords.latitude,data.coords.longitude], 125, {
 	    		color: 'red',
 	    		fillColor: '#f03',
 	    		fillOpacity: 0.5
-			}).addTo(map).bindPopup("Ihr Standort").openPopup();
+			}).addTo(map)
+			current_position.bindPopup("Ihr Standort").openPopup();
 		});
 	}
 }
